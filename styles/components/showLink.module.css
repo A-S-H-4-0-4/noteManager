@@ -1,0 +1,51 @@
+.box {
+  background: linear-gradient(180deg,
+  rgba(255, 255, 255, 0.05),
+  rgba(231, 238, 247, 0.5) 50%,
+  rgb(203, 222, 247) 103%);
+  width: 25%;
+  Height: 15%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.cBox {
+  height: 50%;
+  width: 95%;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  overflow: scroll;
+  font-size: 16px;
+  overflow-y: hidden; /* Hide horizontal scrollbar  */
+}
+
+@media screen and (max-width: 480px) {
+  .TextField {
+    width: 30%;
+  }
+
+  /* #main {margin-left: 216px;} */
+}
+
+.editIcon {
+  color: rgb(72, 140, 228);
+  cursor: pointer;
+}
+
+.editIcon:hover {
+  
+  color: rgb(54, 123, 214);
+}
+
+.deleteIcon{
+  cursor: pointer;
+  color: rgb(228, 72, 72);
+}
+
+.deleteIcon:hover {
+  color: rgb(216, 27, 27);
+}
